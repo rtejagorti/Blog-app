@@ -6,9 +6,78 @@
 
     <%= stylesheet_link_tag    'default', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'default', 'data-turbolinks-track': 'reload' %>
+
+
+
+    <!-- Theme CSS -->
+ <link href="http://blackrockdigital.github.io/startbootstrap-grayscale/css/grayscale.css" rel="stylesheet">
+  <!-- Custom CSS
+     <link href="https://blackrockdigital.github.io/startbootstrap-stylish-portfolio/css/stylish-portfolio.css" rel="stylesheet">-->
+<!--    <link href="https://blackrockdigital.github.io/startbootstrap-clean-blog/css/clean-blog.min.css" rel="stylesheet"> -->
   </head>
 
   <body>
+    <!-- Navigation -->
+<!--     <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+         <div class="container">
+             <div class="navbar-header">
+                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                     Menu <i class="fa fa-bars"></i>
+                 </button>
+                 <a class="navbar-brand page-scroll" href="#page-top">
+                     <i class="fa fa-play-circle"></i> <span class="light">Start</span> Bootstrap
+                 </a>
+             </div>
+
+
+             <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                 <ul class="nav navbar-nav">
+
+                     <li class="hidden">
+                         <a href="#page-top"></a>
+                     </li>
+                     <li>
+                         <a class="page-scroll" href="#about">Posts</a>
+                     </li>
+
+                     <li>
+                         <a class="page-scroll" href="#contact">Contact</a>
+                     </li>
+                 </ul>
+             </div>
+
+         </div>
+
+     </nav> --->
+
+     <!-- Intro Header -->
+     <header class="intro">
+         <div class="intro-body">
+             <div class="container">
+                 <div class="row">
+                     <div class="col-md-8 col-md-offset-2">
+                         <h2 class="brand-heading">Blog Application</h2>
+                         <p class="intro-text">Personal Branding Blog:
+                             <br> Navigating YOU to future success.</p>
+                             <a href="http://localhost:3000/posts/new" >
+                              <p class="intro-text">Create New Post</p>
+                             </a>
+                         <a href="http://localhost:3000/posts#notice" >
+                          <p class="intro-text">View Posts</p>
+                         </a>
+                     </div>
+                 </div>
+             </div>
+         </div>
+     </header>
+
     <%= yield %>
+    <!-- Footer -->
+        <footer>
+            <div class="container text-center">
+                <p align="center">Copyright &copy; 2016</p>
+            </div>
+        </footer>
+
   </body>
 </html>
